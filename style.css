@@ -1,0 +1,67 @@
+.container{
+
+
+
+background-color:cornflowerblue;
+width:100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.container-2{
+
+
+width:640px;
+height:200px;
+display:grid;
+grid-template-columns: repeat(3,200px);
+grid-template-rows: auto;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.container-3{
+    background-color: springgreen;
+    border-radius: 10%;
+width:400px;
+
+height:300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:20px;
+font-size: 20px;
+color:firebrick;
+font-weight: bold;
+}
+
+
+.textcolor{
+
+    color:black
+}
+
+
+.gifhappy{
+
+
+
+background-image: url("https://media0.giphy.com/media/WZklEzvRrAtncnHqnB/giphy.webp?cid=82a1493bl8x3e5ctadgdzsknbzisntpetn95fhu3zj9gm88t&ep=v1_gifs_trending&rid=giphy.webp&ct=g");
+background-repeat:round;
+
+}
+
+.gifsad{
+background-image: url("https://media1.giphy.com/media/t4izkhlRqZSqQ5X6ou/giphy.gif?cid=6c09b952kz4emkkb9dva1koxq2vpp8tj4mby511wlnpddgg7&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+background-repeat:round;
+}
+.gifequal{
+
+background-image: url("https://media.tenor.com/0BBGBX24BjkAAAAM/aclogo-accessibility-club.gif");
+
+
+}
